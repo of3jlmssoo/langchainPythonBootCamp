@@ -1,0 +1,3 @@
+# langchainPythonBootcamp
+UdemyのLangChain with Python BootCampはOpenAIを受講。ただし、利用するのコースで使われているOpenAIではなくがGoogle Geminiとする。
+
