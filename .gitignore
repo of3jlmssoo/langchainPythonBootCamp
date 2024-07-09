@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+speech_embedding_db
 __pycache__/
 *.py[cod]
 *$py.class
