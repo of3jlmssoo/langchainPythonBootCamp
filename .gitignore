@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+*.bin
+*.wiki.*
 *.sqlite3
 speech_embedding_db
 __pycache__/
