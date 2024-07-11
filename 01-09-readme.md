@@ -1,10 +1,4 @@
-- コースのcontext compressionでは返されるドキュメントがゼロ
-- langchainのマニュアルだと1ドキュメント返される
-- ただし、langchainのマニュアル例だと追加の部分ではthreshholdの調整が必要
+- コースのcontext compressionでは返されるドキュメントがゼロ。ただし、データはセーブされたものをロードしたもの
+- langchainのマニュアルだと1ドキュメント返される(01-09-context-comp-lchain.ipynb)。ただし、langchainのマニュアル例だと追加の部分ではthreshholdの調整が必要
 
-違いは、
-- 元のテキストドキュメント
-- コースはChroma、マニュアルはFAISS
-なので、マニュアルの方をChromaにしてみる。
-
-コースの方でテキストのスプリット、Chromaの作成からやり直すと１文書返されたのでデータをロードしたChromaの方に問題があったよう。
+コースの方でテキストロード、スプリット、Chroma DB作成で試したところ、それなりの文書が返された。
